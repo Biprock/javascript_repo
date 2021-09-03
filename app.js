@@ -64,3 +64,41 @@ const h = 11
 const i = '11'
 console.log(h==i)
 console.log(h===i)
+
+
+
+//Logical operators
+
+
+
+const a1 = 2
+const b1 = 3
+console.log('a===b',a===b)
+console.log('a==b',a==b)
+console.log ('a!=b',a!=b)
+
+console.log("Truth Table for AND")
+console.log('  ')
+console.log('false && false',false && false)
+console.log('false && true',false && true)
+console.log('true && false',true && false)
+console.log('true && true',true && true)
+
+console.log('----------------------------------------')
+
+
+console.log("Truth Table for OR")
+console.log('  ')
+console.log('false || false',false || false)
+console.log('false || true',false || true)
+console.log('true || false',true || false)
+console.log('true || true',true || true)
+
+
+const a2 = 50 
+const b2 = 30
+const c2  = 20 
+console.log (a2>b2 && b2>c2)
+console.log (a2<b2 && b2>c2)
+console.log (a2>b2 || b2>c2)
+console.log (a2<b2 || b2>c2)
