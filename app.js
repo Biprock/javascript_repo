@@ -22,4 +22,12 @@ let age=19
 console.log(Name.toUpperCase())
 
 
-// coersion
+// coersion in js 
+
+
+// Arithmetic operators
+
+const name = "Biprajit"
+
+name = "Biprock"
+console.log(name)
