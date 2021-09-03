@@ -38,17 +38,29 @@ console.log(Name.toUpperCase())
   console.log(b%a)
 
 
-console.log('----------------------------------------------------')
+const c = 'b'
+const d ='a'
+console.log(c+d)
+
 
 // Assignment operators
+// =
 
 
-  let c = 0 
-  let d = 5
-  let e = 5
-  c++ //c=c+1
-  d*=5
-  e**=5
-  console.log(c)
-  console.log(d)
-  console.log(e)
+
+// comparion operators
+
+const e = 24
+const f = 30
+const g = 24
+console.log(e>f)
+console.log(e<f)
+console.log(e==g)
+
+console.log('----------------------------------------------------------')
+
+
+const h = 11
+const i = '11'
+console.log(h==i)
+console.log(h===i)
