@@ -102,3 +102,29 @@ console.log (a2>b2 && b2>c2)
 console.log (a2<b2 && b2>c2)
 console.log (a2>b2 || b2>c2)
 console.log (a2<b2 || b2>c2)
+
+console.log('----------------------------------------------------')
+
+// conditional statements
+
+//checks whether number is or not 
+
+const x = 0
+if (typeof x === 'number')
+{
+ if (x === 0)
+ {
+     console.log("neither even nor odd")
+ }
+ else if  (x%2 === 0)
+ {
+     console.log("number is even")
+ }
+ else
+ {
+     console.log("number is odd")
+ }
+}
+else{
+    console.error("not a number")
+}
