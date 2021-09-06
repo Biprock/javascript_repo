@@ -14,10 +14,7 @@ function LogName(name)
 LogName( )
 
 
-function add(a=0,b=0)
-{
-    const sum = a+b
-    return sum
+const add =(a=0,b=0) =>{
+    return a+b
 }
-const result = add(12,99)
-console.log(result)
+console.log(add(12,23))
