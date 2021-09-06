@@ -1,5 +1,8 @@
-//const element = document.getElementsByTagName('div')
+const rock = document.querySelector('#rock')
+console.log(rock)
 
+const paper = document.querySelector('#paper')
+console.log(paper)
 
-const element = document.querySelector('.heading')
-console.log(element)
+const scissor = document.querySelector('#scissor')
+console.log(scissor)
