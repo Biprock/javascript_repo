@@ -1,20 +1,16 @@
-//const rock = document.querySelector('#rock')
+// const rock = document.querySelector('#rock')
+// const paper = document.querySelector('#paper')
+// const scissor = document.querySelector('#scissor')
 
-//const paper = document.querySelector('#paper')
 
-
-//const scissor = document.querySelector('#scissor')
-
-function LogName(name)
-{
-    //console.log("Biprajit")
-    console.log(name)
+function logName(Name = "John Doe", age = 18) {
+    // console.log("Nishta")
+    console.log(Name + " You are " + age)
 }
 
-LogName( )
-
-
-const add =(a=0,b=0) =>{
-    return a+b
+const add = (a = 0, b = 0) => {
+    return a + b
 }
-console.log(add(12,23))
+
+
+console.log(add(12, 23))
