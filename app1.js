@@ -49,7 +49,7 @@ let attendConcert = new Promise(function (resolve, reject) {
 //console.log(attendConcert)
 
 
-attendConcert.then((data)=>console.log(data));
+//attendConcert.then((data)=>console.log(data));
 
 
 attendConcert.catch((error)=>console.log(error));
